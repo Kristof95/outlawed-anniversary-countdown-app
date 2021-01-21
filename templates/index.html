@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+    <title>IsItOutlawedAnniversary?</title>
+  </head>
+  <body>
+    <div class="pyro">
+      <div class="before"></div>
+      <div class="after"></div>
+    </div>
+    <div class="center-screen">
+      <center><h1 style="color:white;">WOHOOOO!</h1></center>
+      <center><h1 style="color:white;">Happy Anniversary Outlawed!!!!</h1></center>
+  </div>
+  </body>
+
+  <style>
+      html, body {
+        background-image: url("./static/outlawed.png");
+        background-size: cover;
+      }
+
+      .center-screen {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 80vh;
+    }
+  </style>
+</html>
